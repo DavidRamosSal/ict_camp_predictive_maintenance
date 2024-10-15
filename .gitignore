@@ -162,5 +162,4 @@ cython_debug/
 #.idea/
 
 # Ignore dataset
-data_phm2010/
 data/
