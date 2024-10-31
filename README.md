@@ -18,7 +18,7 @@ This project uses the data provided for the [2010 PHM Society Conference Data Ch
 ## Tech stack
 
 <p align="center">
-  <img src="reports/figures/tech_pipeline.drawio.png" width="550" title="tech stack">
+  <img src="reports/figures/tech_pipeline.drawio.png?" width="550" title="tech stack">
 </p>
 
 ## Notebooks
