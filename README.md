@@ -39,6 +39,10 @@ A dashboard was built with [Streamlit](https://streamlit.io/) to visualize key i
 
 - **[Live Dashboard](https://predictive-maintenance-ict-camp.streamlit.app/)**
 
+<p align="center">
+    <img src="reports/figures/dashboard_screenshot.png" height="400">
+</p>
+
 ## Acknowledgments
 
 Contributors:
