@@ -35,9 +35,9 @@ Most of the work was done in Jupyter notebooks, in them you can find a mix of wr
 
 ## Dashboard
 
-A dashboard was built with [Streamlit](https://streamlit.io/) to visualize key insights from the data analysis and model predictions. It was developed in a separate [GitHub repo](https://github.com/djamiemartin/Streamlit) but you can explore it directly at:
+A dashboard was built with [Streamlit](https://streamlit.io/) to visualize key insights from the data analysis and model predictions. It was developed in a separate [GitHub repo](https://github.com/DavidRamosSal/ICTStreamlit) but you can explore it directly at:
 
-- **[Live Dashboard](https://predictive-maintenance-ict-camp.streamlit.app/)**
+- **[Live Dashboard](https://ict-camp-predictive-maintenance.streamlit.app/)**
 
 <p align="center">
     <img src="reports/figures/dashboard_screenshot.png" height="400">
