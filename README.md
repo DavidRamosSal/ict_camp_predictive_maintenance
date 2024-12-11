@@ -25,19 +25,29 @@ This project uses the data provided for the [2010 PHM Society Conference Data Ch
 
 Most of the work was done in Jupyter notebooks, in them you can find a mix of written analysis, code, diagrams and data visualization.
 
-| Notebook                                                                                                       | Description                                                                             |
-| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [1.0-exploratory-data-analysis.ipynb](notebooks/1.0-exploratory-data-analysis.ipynb)                           | Initial data exploration and visualization.                                             |
-| [2.0-ep-correlation-analysis.ipynb](notebooks/2.0-ep-correlation-analysis.ipynb)                               | In-depth analysis of the correlations between variable statistics and target variables. |
-| [3.0-drs-frequency-feature-engineering.ipynb](notebooks/3.0-drs-frequency-feature-engineering.ipynb)           | Feature extraction from frequency spectrum using wavelet transforms.                    |
-| [4.0-ep-linear-regression-c1-self-selective.ipynb](notebooks/4.0-ep-linear-regression-c1-self-selective.ipynb) | Training and evaluation of a multi-output Lasso regression model.                       |
-| [5.0-drs-deep-learning-modeling.ipynb](notebooks/5.0-drs-deep-learning-modeling.ipynb)                         | Training and evaluation of a 1-dimensional CNN model for regression.                    |
+| Notebook                                                                             | Description                                                            |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| [1.0-exploratory-data-analysis.ipynb](notebooks/1.0-exploratory-data-analysis.ipynb) | Initial data exploration and visualization of signal and wear data.    |
+| [2.0-feature-engineering.ipynb](notebooks/2.0-feature-engineering.ipynb)             | Feature extraction from signals,, including frequency-domain features. |
+| [3.0-linear-regression.ipynb](notebooks/3.0-linear-regression.ipynb)                 | Training and evaluation of a Lasso regression model.                   |
+| [4.0-CNN-regression.ipynb](notebooks/4.0-CNN-regression.ipynb)                       | Training and evaluation of a 1-dimensional CNN model for regression.   |
 
 ## Dashboard
 
 A dashboard was built with [Streamlit](https://streamlit.io/) to visualize key insights from the data analysis and model predictions. It was developed in a separate [GitHub repo](https://github.com/djamiemartin/Streamlit) but you can explore it directly at:
 
 - **[Live Dashboard](https://predictive-maintenance-ict-camp.streamlit.app/)**
+
+## Reproducing our work
+
+1. Download the data from the [source](https://www.kaggle.com/datasets/rabahba/phm-data-challenge-2010?resource=download). Save it and unzip in a directory called `/data/raw/`.
+2. Install the dependencies in `requirements.txt` eg. via pip by running:
+
+```
+    pip install -r requirements.txt
+```
+
+3. Run the notebooks in the editor of your choice.
 
 ## Acknowledgments
 
