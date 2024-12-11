@@ -25,12 +25,12 @@ This project uses the data provided for the [2010 PHM Society Conference Data Ch
 
 Most of the work was done in Jupyter notebooks, in them you can find a mix of written analysis, code, diagrams and data visualization.
 
-| Notebook                                                                             | Description                                                            |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| [1.0-exploratory-data-analysis.ipynb](notebooks/1.0-exploratory-data-analysis.ipynb) | Initial data exploration and visualization of signal and wear data.    |
-| [2.0-feature-engineering.ipynb](notebooks/2.0-feature-engineering.ipynb)             | Feature extraction from signals,, including frequency-domain features. |
-| [3.0-linear-regression.ipynb](notebooks/3.0-linear-regression.ipynb)                 | Training and evaluation of a Lasso regression model.                   |
-| [4.0-CNN-regression.ipynb](notebooks/4.0-CNN-regression.ipynb)                       | Training and evaluation of a 1-dimensional CNN model for regression.   |
+| Notebook                                                                             | Description                                                           |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| [1.0-exploratory-data-analysis.ipynb](notebooks/1.0-exploratory-data-analysis.ipynb) | Initial data exploration and visualization of signal and wear data.   |
+| [2.0-feature-engineering.ipynb](notebooks/2.0-feature-engineering.ipynb)             | Feature extraction from signals, including frequency-domain features. |
+| [3.0-linear-regression.ipynb](notebooks/3.0-linear-regression.ipynb)                 | Training and evaluation of a Lasso regression model.                  |
+| [4.0-CNN-regression.ipynb](notebooks/4.0-CNN-regression.ipynb)                       | Training and evaluation of a 1-dimensional CNN model for regression.  |
 
 ## Dashboard
 
